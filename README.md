@@ -21,3 +21,6 @@ Project also has a RestControllerAdvice component for exception handling.
 
 Well, this project is - at this state - half cooked. Next, I will implement a log-in mechanism, then the API requests will all be made by a session-token. First, I had a ID/PW hashing then matching it with a ID/PW hash on a user DB, but currently I am looking for a way to do it via Spring Boot Security. Then, I will make a simple web interface to use the API. At the end, I plan to have it all containerized including DB.
 
+## How to try the project?
+
+First, `git clone` the repository. Then, run the LibraryProjectApplication.java class. Since the project is on Spring Boot, Tomcat will launch and then you can place requests at your 8080 port.
