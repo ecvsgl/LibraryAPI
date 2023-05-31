@@ -23,4 +23,4 @@ Well, this project is - at this state - half cooked. Next, I will implement a lo
 
 ## How to try the project?
 
-First, `git clone` the repository. Then, run the LibraryProjectApplication.java class. Since the project is on Spring Boot, Tomcat will launch and then you can place requests at your 8080 port.
+First, `git clone` the repository. Then, run the LibraryProjectApplication.java class. Since the project is on Spring Boot, Tomcat will launch and then you can place requests at your 8080 port. (Note that, mysql will run on 8081, to avoid conflict with any other projects actively running another instance of mysql)
